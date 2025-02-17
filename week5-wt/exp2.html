@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>External JavaScript Example</title>
+</head>
+<body>
+    <h2> Event handling demonstration</h2>
+    <button onclick="showalert()">Click </button>
+    <button onmouseover="changeText(this)">hover over me</button>
+    <input type="text" id="focusInput" onfocus="focusMessage()"
+placeholder="Click here to focus">
+<input type="text" id="keyInput" onkeydown="keyPressed(event)"
+placeholder="Type something">
+<p id="message">Interact with the elements to see the effects.</p>
+
+    <script src="javascriptfile.js"></script>
+</body>
+</html>
+
